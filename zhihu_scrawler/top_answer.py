@@ -66,8 +66,6 @@ def parse_answer_page(page_url):
         # pdb.set_trace()
     
 
-
-
 if __name__ == '__main__':
     browser = RoboBrowser(history=True,user_agent='nemo')
     # with open(answer_list_url, 'r') as f:
